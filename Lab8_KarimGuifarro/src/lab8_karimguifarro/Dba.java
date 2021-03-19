@@ -1,3 +1,5 @@
+package lab8_karimguifarro;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
@@ -25,6 +27,7 @@ public class Dba {
             JOptionPane.showMessageDialog(null, "Conexion Exitosa");
         } catch (Exception e) {
             e.printStackTrace();
+             JOptionPane.showMessageDialog(null, "Error" + e);
         }
     }
    
